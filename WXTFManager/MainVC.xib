@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainVC" customModule="WXTFManager" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="f3B-TM-zZS"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="260" height="510"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sqQ-ae-GqX">
+                    <rect key="frame" x="20" y="80" width="220" height="30"/>
+                    <animations/>
+                    <state key="normal" title="Normal"/>
+                    <connections>
+                        <action selector="didClickNormal:" destination="-1" eventType="touchUpInside" id="1W1-US-301"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NeG-qO-wNY">
+                    <rect key="frame" x="20" y="310" width="220" height="30"/>
+                    <animations/>
+                    <state key="normal" title="ScrollView"/>
+                    <connections>
+                        <action selector="didClickScrollView:" destination="-1" eventType="touchUpInside" id="HO8-m9-yab"/>
+                    </connections>
+                </button>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="NeG-qO-wNY" firstAttribute="top" secondItem="sqQ-ae-GqX" secondAttribute="bottom" constant="200" id="CAF-Me-k95"/>
+                <constraint firstItem="sqQ-ae-GqX" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="80" id="Cux-f7-eu9"/>
+                <constraint firstItem="sqQ-ae-GqX" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="pDe-Qc-NoI"/>
+                <constraint firstItem="NeG-qO-wNY" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="pdP-Sj-gkr"/>
+                <constraint firstAttribute="trailing" secondItem="NeG-qO-wNY" secondAttribute="trailing" constant="20" id="rsY-yA-46k"/>
+                <constraint firstAttribute="trailing" secondItem="sqQ-ae-GqX" secondAttribute="trailing" constant="20" id="rzj-Dj-FGD"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="420" y="124"/>
+        </view>
+    </objects>
+</document>

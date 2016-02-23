@@ -8,20 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		CE1998771C7C5ADD0070788B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1998761C7C5ADD0070788B /* AppDelegate.swift */; };
-		CE1998791C7C5ADD0070788B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1998781C7C5ADD0070788B /* ViewController.swift */; };
 		CE19987C1C7C5ADD0070788B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE19987A1C7C5ADD0070788B /* Main.storyboard */; };
 		CE19987E1C7C5ADD0070788B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE19987D1C7C5ADD0070788B /* Assets.xcassets */; };
 		CE1998811C7C5ADD0070788B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE19987F1C7C5ADD0070788B /* LaunchScreen.storyboard */; };
+		CE19988E1C7C5F750070788B /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE19988C1C7C5F750070788B /* MainVC.swift */; };
+		CE19988F1C7C5F750070788B /* MainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE19988D1C7C5F750070788B /* MainVC.xib */; };
+		CE54E5881C7CAE8C00007071 /* ToolbarActionEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE54E5841C7CAE8C00007071 /* ToolbarActionEnum.swift */; };
+		CE54E5891C7CAE8C00007071 /* WXTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE54E5851C7CAE8C00007071 /* WXTextField.swift */; };
+		CE54E58A1C7CAE8C00007071 /* WXTFManagerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE54E5861C7CAE8C00007071 /* WXTFManagerVC.swift */; };
+		CE54E58B1C7CAE8C00007071 /* WXToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE54E5871C7CAE8C00007071 /* WXToolbar.swift */; };
+		CE54E58E1C7CAEBF00007071 /* NormalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE54E58C1C7CAEBF00007071 /* NormalVC.swift */; };
+		CE54E58F1C7CAEBF00007071 /* NormalVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE54E58D1C7CAEBF00007071 /* NormalVC.xib */; };
+		CE54E5921C7CAECA00007071 /* ScrollViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE54E5901C7CAECA00007071 /* ScrollViewVC.swift */; };
+		CE54E5931C7CAECA00007071 /* ScrollViewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE54E5911C7CAECA00007071 /* ScrollViewVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE1998731C7C5ADD0070788B /* WXTFManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WXTFManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE1998761C7C5ADD0070788B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE1998781C7C5ADD0070788B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE19987B1C7C5ADD0070788B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE19987D1C7C5ADD0070788B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE1998801C7C5ADD0070788B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE1998821C7C5ADD0070788B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE19988C1C7C5F750070788B /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		CE19988D1C7C5F750070788B /* MainVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainVC.xib; sourceTree = "<group>"; };
+		CE54E5841C7CAE8C00007071 /* ToolbarActionEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolbarActionEnum.swift; sourceTree = "<group>"; };
+		CE54E5851C7CAE8C00007071 /* WXTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WXTextField.swift; sourceTree = "<group>"; };
+		CE54E5861C7CAE8C00007071 /* WXTFManagerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WXTFManagerVC.swift; sourceTree = "<group>"; };
+		CE54E5871C7CAE8C00007071 /* WXToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WXToolbar.swift; sourceTree = "<group>"; };
+		CE54E58C1C7CAEBF00007071 /* NormalVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NormalVC.swift; sourceTree = "<group>"; };
+		CE54E58D1C7CAEBF00007071 /* NormalVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NormalVC.xib; sourceTree = "<group>"; };
+		CE54E5901C7CAECA00007071 /* ScrollViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewVC.swift; sourceTree = "<group>"; };
+		CE54E5911C7CAECA00007071 /* ScrollViewVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScrollViewVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +72,29 @@
 		CE1998751C7C5ADD0070788B /* WXTFManager */ = {
 			isa = PBXGroup;
 			children = (
+				CE54E5831C7CAE6900007071 /* WXTFManager */,
 				CE1998761C7C5ADD0070788B /* AppDelegate.swift */,
-				CE1998781C7C5ADD0070788B /* ViewController.swift */,
 				CE19987A1C7C5ADD0070788B /* Main.storyboard */,
 				CE19987D1C7C5ADD0070788B /* Assets.xcassets */,
 				CE19987F1C7C5ADD0070788B /* LaunchScreen.storyboard */,
 				CE1998821C7C5ADD0070788B /* Info.plist */,
+				CE19988C1C7C5F750070788B /* MainVC.swift */,
+				CE19988D1C7C5F750070788B /* MainVC.xib */,
+				CE54E58C1C7CAEBF00007071 /* NormalVC.swift */,
+				CE54E58D1C7CAEBF00007071 /* NormalVC.xib */,
+				CE54E5901C7CAECA00007071 /* ScrollViewVC.swift */,
+				CE54E5911C7CAECA00007071 /* ScrollViewVC.xib */,
+			);
+			path = WXTFManager;
+			sourceTree = "<group>";
+		};
+		CE54E5831C7CAE6900007071 /* WXTFManager */ = {
+			isa = PBXGroup;
+			children = (
+				CE54E5841C7CAE8C00007071 /* ToolbarActionEnum.swift */,
+				CE54E5851C7CAE8C00007071 /* WXTextField.swift */,
+				CE54E5861C7CAE8C00007071 /* WXTFManagerVC.swift */,
+				CE54E5871C7CAE8C00007071 /* WXToolbar.swift */,
 			);
 			path = WXTFManager;
 			sourceTree = "<group>";
@@ -123,8 +158,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE1998811C7C5ADD0070788B /* LaunchScreen.storyboard in Resources */,
+				CE19988F1C7C5F750070788B /* MainVC.xib in Resources */,
 				CE19987E1C7C5ADD0070788B /* Assets.xcassets in Resources */,
 				CE19987C1C7C5ADD0070788B /* Main.storyboard in Resources */,
+				CE54E5931C7CAECA00007071 /* ScrollViewVC.xib in Resources */,
+				CE54E58F1C7CAEBF00007071 /* NormalVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +173,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE1998791C7C5ADD0070788B /* ViewController.swift in Sources */,
+				CE54E5921C7CAECA00007071 /* ScrollViewVC.swift in Sources */,
+				CE54E5891C7CAE8C00007071 /* WXTextField.swift in Sources */,
 				CE1998771C7C5ADD0070788B /* AppDelegate.swift in Sources */,
+				CE54E58E1C7CAEBF00007071 /* NormalVC.swift in Sources */,
+				CE19988E1C7C5F750070788B /* MainVC.swift in Sources */,
+				CE54E5881C7CAE8C00007071 /* ToolbarActionEnum.swift in Sources */,
+				CE54E58B1C7CAE8C00007071 /* WXToolbar.swift in Sources */,
+				CE54E58A1C7CAE8C00007071 /* WXTFManagerVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +292,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WXTFManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.msucity.WXTFManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -259,6 +304,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WXTFManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.msucity.WXTFManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -284,6 +330,7 @@
 				CE1998871C7C5ADD0070788B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
