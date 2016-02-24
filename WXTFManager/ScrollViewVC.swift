@@ -22,17 +22,7 @@ class ScrollViewVC: UIViewController {
 
         navigationItem.title = "ScrollView"
         
-        for subView in contetnView.subviews{
-            
-            if subView.isKindOfClass(WXTextField){
-                
-                let tf = subView as! WXTextField
-                
-                tfs.append(tf)
-                
-            }
-            
-        }
+        let tfs = contetnView.subviews.filter(WXTextField.filterGeneratorTF(WXTextField)).map(WXTextField.wxTextFieldWithView)
         
         WXTFManagerVC.registerManageWith(self, scrollView: scrollView, tfs: tfs)
 

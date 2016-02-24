@@ -21,6 +21,7 @@
 		CE54E58F1C7CAEBF00007071 /* NormalVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE54E58D1C7CAEBF00007071 /* NormalVC.xib */; };
 		CE54E5921C7CAECA00007071 /* ScrollViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE54E5901C7CAECA00007071 /* ScrollViewVC.swift */; };
 		CE54E5931C7CAECA00007071 /* ScrollViewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE54E5911C7CAECA00007071 /* ScrollViewVC.xib */; };
+		CE94B2691C7D4F270048453A /* TextField+FilterGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE94B2681C7D4F270048453A /* TextField+FilterGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		CE54E58D1C7CAEBF00007071 /* NormalVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NormalVC.xib; sourceTree = "<group>"; };
 		CE54E5901C7CAECA00007071 /* ScrollViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewVC.swift; sourceTree = "<group>"; };
 		CE54E5911C7CAECA00007071 /* ScrollViewVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScrollViewVC.xib; sourceTree = "<group>"; };
+		CE94B2681C7D4F270048453A /* TextField+FilterGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TextField+FilterGenerator.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 				CE54E5851C7CAE8C00007071 /* WXTextField.swift */,
 				CE54E5861C7CAE8C00007071 /* WXTFManagerVC.swift */,
 				CE54E5871C7CAE8C00007071 /* WXToolbar.swift */,
+				CE94B2681C7D4F270048453A /* TextField+FilterGenerator.swift */,
 			);
 			path = WXTFManager;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 			files = (
 				CE54E5921C7CAECA00007071 /* ScrollViewVC.swift in Sources */,
 				CE54E5891C7CAE8C00007071 /* WXTextField.swift in Sources */,
+				CE94B2691C7D4F270048453A /* TextField+FilterGenerator.swift in Sources */,
 				CE1998771C7C5ADD0070788B /* AppDelegate.swift in Sources */,
 				CE54E58E1C7CAEBF00007071 /* NormalVC.swift in Sources */,
 				CE19988E1C7C5F750070788B /* MainVC.swift in Sources */,

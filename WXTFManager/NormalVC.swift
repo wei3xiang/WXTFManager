@@ -15,26 +15,9 @@ class NormalVC: UIViewController {
         super.viewDidLoad()
         
         navigationItem.title = "Normal"
-
-        let tempTFs = view.subviews.filter(filterGeneratorTF(WXTextField))
         
-        let lastTFs = tempTFs.map { subView in
-            
-            return subView as! WXTextField
-            
-        }
+        let lastTFs = view.subviews.filter(WXTextField.filterGeneratorTF(WXTextField)).map(WXTextField.wxTextFieldWithView)
         
         WXTFManagerVC.registerManageWith(self, scrollView: nil, tfs: lastTFs)
     }
-
-    func filterGeneratorTF(tfClass: AnyClass)->(subView: UIView)->Bool{
-        
-        return { subView in
-            
-            return subView.isKindOfClass(tfClass)
-            
-        }
-        
-    }
-    
 }
